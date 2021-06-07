@@ -15,4 +15,8 @@
 		padding: 0 1em;
 		border: none 0;
 	}
+	button:disabled {
+		cursor: not-allowed;
+		background-color: var(--color-active-disabled-background);
+	}
 </style>

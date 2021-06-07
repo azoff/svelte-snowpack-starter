@@ -10,10 +10,10 @@ Package includes:
 ## TODO
 
 - [x] flexboxgrid
+- [x] storybook
 - [ ] prettier
 - [ ] svelte-check?
 - [ ] tests
-- [ ] test in isolation
 - [ ] production mode
 
 [svelte]:https://v2.svelte.dev/blog/frameworks-without-the-framework
