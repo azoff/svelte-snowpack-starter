@@ -20,7 +20,6 @@
 		"noEmit": true,
 		"strict": true,
 		"skipLibCheck": true,
-		"allowJs": false,
 		"checkJs": false,
 		"types": ["snowpack-env", "svelte"],
 		"forceConsistentCasingInFileNames": true,

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 const autoPreprocess = require('svelte-preprocess')
 
 module.exports = {
@@ -21,6 +23,7 @@ module.exports = {
 				transpileOnly: true,
 			},
 		})
+		config.resolve.modules.push('src')
 		config.resolve.extensions.push('.ts', '.tsx')
 		return config;
 	},
