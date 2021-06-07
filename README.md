@@ -11,6 +11,7 @@ Package includes:
 - [ ] prettier
 - [ ] svelte-check?
 - [ ] tests
+- [ ] test in isolation
 - [ ] production mode
 
 [Svelte]:https://v2.svelte.dev/blog/frameworks-without-the-framework
