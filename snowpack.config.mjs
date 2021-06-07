@@ -3,6 +3,7 @@ export default {
 	mount: {
 		public: {url: '/', static: true },
 		src: '/dist',
+		'node_modules/flexboxgrid/css': '/vendor/flexboxgrid',
 	},
 	alias: {
 		'components': './src/components',
