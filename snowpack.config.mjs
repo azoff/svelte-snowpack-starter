@@ -4,7 +4,12 @@ export default {
 		public: {url: '/', static: true },
 		src: '/dist',
 		'node_modules/flexboxgrid/css': '/vendor/flexboxgrid',
+		'node_modules/normalize.css': '/vendor/normalize',
 	},
+	exclude: [
+    '**/*.stories.svelte',
+    '**/stories/**/*.svelte',
+  ],
 	alias: {
 		'components': './src/components',
 		'@src': './src'
@@ -25,7 +30,7 @@ export default {
 		/* ... */
 	},
 	devOptions: {
-		/* ... */
+		open: 'none'
 	},
 	buildOptions: {
 		/* ... */

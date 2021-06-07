@@ -1,20 +1,28 @@
 {
 	"extends": "@tsconfig/svelte/tsconfig.json",
-	"include": ["src/**/*", "types"],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+	"include": [
+		"src/**/*"
+	],
+  "exclude": [
+  	"node_modules/*",
+  	"__sapper__/*",
+  	"public/*"
+  ],
 	"compilerOptions": {
 		"module": "esnext",
 		"moduleResolution": "node",
 		"jsx": "preserve",
 		"baseUrl": "./",
 		"paths": {
-			"components": "./src/components",
-			"@src": "./src",
+			"components": ["./src/components"],
+			"@src": ["./src"],
 		},
 		"noEmit": true,
 		"strict": true,
 		"skipLibCheck": true,
-		"types": ["snowpack-env"],
+		"allowJs": false,
+		"checkJs": false,
+		"types": ["snowpack-env", "svelte"],
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true,
 		"useDefineForClassFields": true,

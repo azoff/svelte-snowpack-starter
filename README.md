@@ -3,8 +3,9 @@
 Package includes:
 
 - [svelte]: Instead of React. I like writing less code.
-- [snowpack]: Because webpack is dog slow. ES Modules are already here.
+- [snowpack]: Webpack is dog slow. ES Modules are already here.
 - [flexboxgrid]: Tried and true grid system based off of flexbox.
+- [normalize]: I prefer my diversity in the workplace, not my browswer.
 
 ## TODO
 
