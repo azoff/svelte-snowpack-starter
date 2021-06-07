@@ -1,0 +1,1 @@
+<h1>Svelte Snowpack Starter</h1>
