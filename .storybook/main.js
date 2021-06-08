@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 const autoPreprocess = require('svelte-preprocess')
 
 module.exports = {

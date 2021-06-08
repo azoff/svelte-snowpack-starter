@@ -7,13 +7,17 @@ Package includes:
 - [flexboxgrid]: Tried and true grid system based off of flexbox.
 - [normalize]: I prefer my diversity in the workplace, not my browswer.
 - [prettier]: Less time spent formatting, more time spent coding.
+- [eslint]: Admittedly not as potent with typescript, but good practice.
 
 ## TODO
 
 - [x] flexboxgrid
 - [x] storybook
 - [x] prettier
-- [ ] eslint
+- [x] eslint
+- [x] auto-lint
+- [ ] auto format
+- [ ] remove hints
 - [ ] svelte-check?
 - [ ] tests
 - [ ] production mode
