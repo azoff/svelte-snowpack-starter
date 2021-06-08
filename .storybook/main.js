@@ -3,19 +3,11 @@
 const autoPreprocess = require('svelte-preprocess')
 
 module.exports = {
-	stories: [
-		"../src/**/*.stories.svelte"
-	],
-	addons: [
-		"@storybook/addon-links",
-		"@storybook/addon-essentials",
-		"@storybook/addon-svelte-csf",
-	],
+	stories: ['../src/**/*.stories.svelte'],
+	addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-svelte-csf'],
 	webpackFinal: async (config) => {
 		// add typescript support to svelte stories in Storybook
-		const svelteLoader = config.module.rules.find(
-			r => r.loader && r.loader.includes('svelte-loader'),
-		)
+		const svelteLoader = config.module.rules.find((r) => r.loader && r.loader.includes('svelte-loader'))
 		svelteLoader.options.preprocess = autoPreprocess({
 			css: { includePaths: ['src', 'node_modules'] },
 			typescript: {
@@ -25,6 +17,6 @@ module.exports = {
 		})
 		config.resolve.modules.push('src')
 		config.resolve.extensions.push('.ts', '.tsx')
-		return config;
+		return config
 	},
 }

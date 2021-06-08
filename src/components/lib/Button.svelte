@@ -1,9 +1,9 @@
-<button {disabled}>Test Button</button>
-
 <script lang="ts">
 	import 'components/lib/theme.css'
-	export let disabled:boolean = false
+	export let disabled: boolean = false
 </script>
+
+<button {disabled}>Test Button</button>
 
 <style>
 	button {

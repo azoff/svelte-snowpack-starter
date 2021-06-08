@@ -1,6 +1,6 @@
 :root {
-  /* colors */
-  --color-active-background: rgb(22,142,214);
-  --color-active-foreground: rgb(255,255,255);
-  --color-active-disabled-background: rgb(22,142,214,0.5);
+	/* colors */
+	--color-active-background: rgb(22, 142, 214);
+	--color-active-foreground: rgb(255, 255, 255);
+	--color-active-disabled-background: rgb(22, 142, 214, 0.5);
 }
