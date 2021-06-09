@@ -1,4 +1,7 @@
 {
+	"name": "svelte-snowpack-starter",
+	"version": "0.0.1",
+	"author": "Jon Azoff <jon@sno.llc> (https://sno.llc)",
 	"scripts": {
 		"start": "snowpack dev",
 		"build": "snowpack build",
@@ -28,6 +31,7 @@
 		"prettier-plugin-svelte": "^2.3.0",
 		"snowpack": "^3.3.7",
 		"svelte": "^3.38.2",
+		"svelte-media": "^0.1.4",
 		"svelte-preprocess": "^4.7.3",
 		"typescript": "^4.3.2"
 	}

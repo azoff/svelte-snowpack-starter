@@ -1,0 +1,7 @@
+{
+    "name": "Svelte Snowpack Starter",
+    "icons": [
+        { "src": "/icons/icon-android-192.png", "type": "image/png", "sizes": "192x192" },
+        { "src": "/icons/icon-android-512.png", "type": "image/png", "sizes": "512x512" }
+    ]
+}

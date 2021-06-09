@@ -8,6 +8,7 @@ Package includes:
 - [normalize]: I prefer my diversity in the workplace, not my browswer.
 - [prettier]: Less time spent formatting, more time spent coding.
 - [eslint]: Admittedly not as potent with typescript, but good practice.
+- [svelte-media]: For programatically creating responsive UI.
 
 ## TODO
 
@@ -17,7 +18,7 @@ Package includes:
 - [x] eslint
 - [x] auto-lint
 - [ ] auto format
-- [ ] remove hints
+- [x] remove hints
 - [ ] svelte-check?
 - [ ] tests
 - [ ] production mode
@@ -27,3 +28,4 @@ Package includes:
 [flexboxgrid]: http://flexboxgrid.com/
 [prettier]: https://prettier.io
 [normalize]: https://levelup.gitconnected.com/you-should-normalize-your-css-b16ce68971a5
+[svelte-media]: https://github.com/cibernox/svelte-media

@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Starter Snowpack App" />
-		<link rel="stylesheet" type="text/css" href="/vendor/normalize/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="/vendor/flexboxgrid/flexboxgrid.min.css" />
-		<link rel="stylesheet" type="text/css" href="/index.css" />
-		<title>Svelte Snowpack Starter</title>
-	</head>
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Svelte Snowpack Starter</title>
+
+  <script type="module">
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="/vendor/normalize/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="/vendor/flexboxgrid/flexboxgrid.min.css" />
+	<link rel="stylesheet" type="text/css" href="/index.css" />
+
+  <meta name="description" content="Boostrap a project with Svelte and Snowpack">
+  <meta property="og:title" content="Svelte Snowpack Starter">
+  <meta property="og:description" content="Boostrap a project with Svelte and Snowpack">
+  <meta property="og:image" content="https://www.mywebsite.com/icons/card-twitter.png">
+  <meta property="og:image:alt" content="Image description">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="https://www.mywebsite.com/page">
+  <link rel="canonical" href="https://www.mywebsite.com/page">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/my.webmanifest">
+  <meta name="theme-color" content="#FEFEFE">
+</head>
+
+<body>
+  <!-- Content -->
+  	<noscript>You need to enable JavaScript to run this app.</noscript>
 		<script type="module" src="/dist/main.js"></script>
-	</body>
+</body>
 </html>
