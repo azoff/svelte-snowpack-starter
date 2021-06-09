@@ -1,6 +1,8 @@
-const autoPreprocess = require('svelte-preprocess')
+const m = module, r = require
 
-module.exports = {
+const autoPreprocess = r('svelte-preprocess')
+
+m.exports = {
 	stories: ['../src/**/*.stories.svelte'],
 	addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-svelte-csf'],
 	webpackFinal: async (config) => {

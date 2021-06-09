@@ -3,12 +3,11 @@
 		"start": "snowpack dev",
 		"build": "snowpack build",
 		"format": "prettier --write .",
-		"storybook": "start-storybook -p 6006 -s public",
+		"storybook": "start-storybook -p 6006 -s public --ci",
 		"build-storybook": "build-storybook -s public"
 	},
 	"devDependencies": {
 		"@canarise/snowpack-eslint-plugin": "^0.2.0",
-		"@snowpack/plugin-run-script": "^2.3.0",
 		"@snowpack/plugin-svelte": "^3.7.0",
 		"@snowpack/plugin-typescript": "^1.2.1",
 		"@storybook/addon-actions": "^6.2.9",

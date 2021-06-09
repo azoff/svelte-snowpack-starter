@@ -6,10 +6,7 @@ export default {
 		'node_modules/flexboxgrid/css': '/vendor/flexboxgrid',
 		'node_modules/normalize.css': '/vendor/normalize',
 	},
-	exclude: [
-		'**/*.stories.svelte',
-		'**/stories/**/*.svelte'
-	],
+	exclude: ['**/*.stories.svelte', '**/stories/**/*.svelte'],
 	alias: {
 		components: './src/components',
 		'@src': './src',
@@ -17,9 +14,12 @@ export default {
 	plugins: [
 		'@snowpack/plugin-svelte',
 		'@snowpack/plugin-typescript',
-		['@canarise/snowpack-eslint-plugin', {
-      globs: ['**/*.ts', '**/*.svelte'],
-    }],
+		[
+			'@canarise/snowpack-eslint-plugin',
+			{
+				globs: ['**/*.ts', '**/*.svelte'],
+			},
+		],
 	],
 	routes: [
 		/* Enable an SPA Fallback in development: */

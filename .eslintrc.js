@@ -1,25 +1,24 @@
-module.exports = {
-	extends: "eslint:recommended",
+const m = module
+
+m.exports = {
+	extends: 'eslint:recommended',
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 2019,
-		sourceType: 'module'
+		sourceType: 'module',
 	},
 	env: {
 		es6: true,
-		browser: true
+		browser: true,
 	},
-	plugins: [
-		'svelte3',
-		'@typescript-eslint',
-	],
+	plugins: ['svelte3', '@typescript-eslint'],
 	overrides: [
 		{
 			files: ['*.svelte'],
-			processor: 'svelte3/svelte3'
-		}
+			processor: 'svelte3/svelte3',
+		},
 	],
 	settings: {
-    'svelte3/typescript': true,
-  }
-};
+		'svelte3/typescript': true,
+	},
+}
